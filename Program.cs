@@ -40,7 +40,8 @@ namespace Calculatrice
                         isOpIncorrect = true;
                         break;
                     case "+":
-                        dblRep = 0;
+                        dblRep = Outils.Addition(dblVal1,dblVal2);
+                        Console.Write("La reponse:" + dblRep.ToString());
                         break;
                     case "-":
                         dblRep = 0;
